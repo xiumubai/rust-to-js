@@ -1,0 +1,11 @@
+[package]
+name = "my_rust_lib"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# `libc` is a commonly used dependency when interfacing with C or other languages
+libc = "0.2"
+
+[lib]
+crate-type = ["cdylib"]
